@@ -15,7 +15,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
 # Running Tutorial Projects
 To run the tutorial project:
 * Clone the repository to your local machine.
-* Open the project using Embarcadero RAD Studio or Delphi IDE XE or higher versions of your choice.
-* Download latest release of dotNet4Java Setup and Install: http://www.crystalnet-tech.com/Products/dotNet4Java/download
-* Add the dotNet4Java JAR from the installation to the tutorial project.
+* Open the project using Embarcadero RAD Studio or Delphi XE or higher IDE versions of your choice.
+* Download latest release of .Net Runtime Library for Delphi Setup and Install: https://www.crystalnet-tech.com/RuntimeLibrary/download
 
