@@ -29,6 +29,5 @@ Unless required by applicable law or agreed to in writing, software distributed 
 # Running Tutorial Projects
 To run the tutorial project:
 * Clone the repository to your local machine.
-* Open the project using Embarcadero RAD Studio or Delphi XE or higher IDE versions of your choice.
 * Download latest release of .Net Runtime Library for Delphi Setup and Install: https://www.crystalnet-tech.com/RuntimeLibrary/download
-
+* Open the project using Embarcadero RAD Studio or Delphi XE or higher IDE versions of your choice.
