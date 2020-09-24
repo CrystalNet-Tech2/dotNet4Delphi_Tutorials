@@ -1,0 +1,480 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DC014B01-1823-400E-96E0-536C0EF8FCDE}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Basic Examples\Console App\ConsoleApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application Domains and Assemblies\Load Assemblies\Using AppDomain\LoadAssemblyUsingAppDomain.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application Domains and Assemblies\Load Assemblies\Using AssemblyHelper\LoadAssemblyUsingAssemblyHelper.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application Domains and Assemblies\Load Assemblies\Using TClrAssembly\LoadAssemblyUsingAssemblyClass.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application Domains and Assemblies\Create Instance\Using Activator\CreateInstanceUsingActivator.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application Domains and Assemblies\Create Instance\Using AppDomain\CreateInstanceUsingAppDomain.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application Domains and Assemblies\Create Instance\Using Dispatch Activator\CreateInstanceUsingDispActivator.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application Domains and Assemblies\COM DispInterface\COMDispInterface.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic Examples\Basic Example\BasicExample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic Examples\Array\ArrayExample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic Examples\ArrayList\ArrayList.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic Examples\DateTimeInfo\DateTimeInfo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic Examples\StringBuilder\StringBuilder.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Basic Examples\ClrObject Example\UsingClrObject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Reflections\Basic Reflections\Reflection.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Reflections\Using ClrObject Interface\ReflectionUsingClrObjectInterface.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Reflections\Using ClrObject Class\ReflectionUsingClrObjectClass.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Collections\Other Examples\Collections.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Collections\Generic Dictionary\GenericDictionary.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Collections\Generic List\GenericList.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Data\DataTable\DataTable.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Directory Services\DirectoryServices.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Event Handler\Standard\EventHandling.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Event Handler\Advanced\AdvancedEventHandler.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="IO\ListFilesInDirectory\ListFilesInDir.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="IO\StreamWriterAndReader\StreamWriterReader.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Management\EventWatcherPolling\EventWatcherPolling.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Management\Using ManagementPath\ManagementPath.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="XML\XML.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CodeDOM\CreateCSharpClassWithCodeDOM.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Converter\ByteConverter\ByteConverter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Converter\CultureInfoConverter\CultureInfoConverter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Configuration\Configuration.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Diagnostics\Diagnostics.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DeviceLocation\DeviceLocation\DeviceLocation.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DeviceLocation\ResolveAddressSync\ResolveAddressSync.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DataGridView\DataGridViewOnVCLForm.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Security\RijndaelSecurity.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ConsoleApp">
+        <MSBuild Projects="Basic Examples\Console App\ConsoleApp.dproj"/>
+    </Target>
+    <Target Name="ConsoleApp:Clean">
+        <MSBuild Projects="Basic Examples\Console App\ConsoleApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ConsoleApp:Make">
+        <MSBuild Projects="Basic Examples\Console App\ConsoleApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAppDomain">
+        <MSBuild Projects="Application Domains and Assemblies\Load Assemblies\Using AppDomain\LoadAssemblyUsingAppDomain.dproj"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAppDomain:Clean">
+        <MSBuild Projects="Application Domains and Assemblies\Load Assemblies\Using AppDomain\LoadAssemblyUsingAppDomain.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAppDomain:Make">
+        <MSBuild Projects="Application Domains and Assemblies\Load Assemblies\Using AppDomain\LoadAssemblyUsingAppDomain.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyHelper">
+        <MSBuild Projects="Application Domains and Assemblies\Load Assemblies\Using AssemblyHelper\LoadAssemblyUsingAssemblyHelper.dproj"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyHelper:Clean">
+        <MSBuild Projects="Application Domains and Assemblies\Load Assemblies\Using AssemblyHelper\LoadAssemblyUsingAssemblyHelper.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyHelper:Make">
+        <MSBuild Projects="Application Domains and Assemblies\Load Assemblies\Using AssemblyHelper\LoadAssemblyUsingAssemblyHelper.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyClass">
+        <MSBuild Projects="Application Domains and Assemblies\Load Assemblies\Using TClrAssembly\LoadAssemblyUsingAssemblyClass.dproj"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyClass:Clean">
+        <MSBuild Projects="Application Domains and Assemblies\Load Assemblies\Using TClrAssembly\LoadAssemblyUsingAssemblyClass.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoadAssemblyUsingAssemblyClass:Make">
+        <MSBuild Projects="Application Domains and Assemblies\Load Assemblies\Using TClrAssembly\LoadAssemblyUsingAssemblyClass.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CreateInstanceUsingActivator">
+        <MSBuild Projects="Application Domains and Assemblies\Create Instance\Using Activator\CreateInstanceUsingActivator.dproj"/>
+    </Target>
+    <Target Name="CreateInstanceUsingActivator:Clean">
+        <MSBuild Projects="Application Domains and Assemblies\Create Instance\Using Activator\CreateInstanceUsingActivator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CreateInstanceUsingActivator:Make">
+        <MSBuild Projects="Application Domains and Assemblies\Create Instance\Using Activator\CreateInstanceUsingActivator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CreateInstanceUsingAppDomain">
+        <MSBuild Projects="Application Domains and Assemblies\Create Instance\Using AppDomain\CreateInstanceUsingAppDomain.dproj"/>
+    </Target>
+    <Target Name="CreateInstanceUsingAppDomain:Clean">
+        <MSBuild Projects="Application Domains and Assemblies\Create Instance\Using AppDomain\CreateInstanceUsingAppDomain.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CreateInstanceUsingAppDomain:Make">
+        <MSBuild Projects="Application Domains and Assemblies\Create Instance\Using AppDomain\CreateInstanceUsingAppDomain.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CreateInstanceUsingDispActivator">
+        <MSBuild Projects="Application Domains and Assemblies\Create Instance\Using Dispatch Activator\CreateInstanceUsingDispActivator.dproj"/>
+    </Target>
+    <Target Name="CreateInstanceUsingDispActivator:Clean">
+        <MSBuild Projects="Application Domains and Assemblies\Create Instance\Using Dispatch Activator\CreateInstanceUsingDispActivator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CreateInstanceUsingDispActivator:Make">
+        <MSBuild Projects="Application Domains and Assemblies\Create Instance\Using Dispatch Activator\CreateInstanceUsingDispActivator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="COMDispInterface">
+        <MSBuild Projects="Application Domains and Assemblies\COM DispInterface\COMDispInterface.dproj"/>
+    </Target>
+    <Target Name="COMDispInterface:Clean">
+        <MSBuild Projects="Application Domains and Assemblies\COM DispInterface\COMDispInterface.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="COMDispInterface:Make">
+        <MSBuild Projects="Application Domains and Assemblies\COM DispInterface\COMDispInterface.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicExample">
+        <MSBuild Projects="Basic Examples\Basic Example\BasicExample.dproj"/>
+    </Target>
+    <Target Name="BasicExample:Clean">
+        <MSBuild Projects="Basic Examples\Basic Example\BasicExample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicExample:Make">
+        <MSBuild Projects="Basic Examples\Basic Example\BasicExample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ArrayExample">
+        <MSBuild Projects="Basic Examples\Array\ArrayExample.dproj"/>
+    </Target>
+    <Target Name="ArrayExample:Clean">
+        <MSBuild Projects="Basic Examples\Array\ArrayExample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ArrayExample:Make">
+        <MSBuild Projects="Basic Examples\Array\ArrayExample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ArrayList">
+        <MSBuild Projects="Basic Examples\ArrayList\ArrayList.dproj"/>
+    </Target>
+    <Target Name="ArrayList:Clean">
+        <MSBuild Projects="Basic Examples\ArrayList\ArrayList.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ArrayList:Make">
+        <MSBuild Projects="Basic Examples\ArrayList\ArrayList.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DateTimeInfo">
+        <MSBuild Projects="Basic Examples\DateTimeInfo\DateTimeInfo.dproj"/>
+    </Target>
+    <Target Name="DateTimeInfo:Clean">
+        <MSBuild Projects="Basic Examples\DateTimeInfo\DateTimeInfo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DateTimeInfo:Make">
+        <MSBuild Projects="Basic Examples\DateTimeInfo\DateTimeInfo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StringBuilder">
+        <MSBuild Projects="Basic Examples\StringBuilder\StringBuilder.dproj"/>
+    </Target>
+    <Target Name="StringBuilder:Clean">
+        <MSBuild Projects="Basic Examples\StringBuilder\StringBuilder.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StringBuilder:Make">
+        <MSBuild Projects="Basic Examples\StringBuilder\StringBuilder.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UsingClrObject">
+        <MSBuild Projects="Basic Examples\ClrObject Example\UsingClrObject.dproj"/>
+    </Target>
+    <Target Name="UsingClrObject:Clean">
+        <MSBuild Projects="Basic Examples\ClrObject Example\UsingClrObject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UsingClrObject:Make">
+        <MSBuild Projects="Basic Examples\ClrObject Example\UsingClrObject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Reflection">
+        <MSBuild Projects="Reflections\Basic Reflections\Reflection.dproj"/>
+    </Target>
+    <Target Name="Reflection:Clean">
+        <MSBuild Projects="Reflections\Basic Reflections\Reflection.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Reflection:Make">
+        <MSBuild Projects="Reflections\Basic Reflections\Reflection.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectInterface">
+        <MSBuild Projects="Reflections\Using ClrObject Interface\ReflectionUsingClrObjectInterface.dproj"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectInterface:Clean">
+        <MSBuild Projects="Reflections\Using ClrObject Interface\ReflectionUsingClrObjectInterface.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectInterface:Make">
+        <MSBuild Projects="Reflections\Using ClrObject Interface\ReflectionUsingClrObjectInterface.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectClass">
+        <MSBuild Projects="Reflections\Using ClrObject Class\ReflectionUsingClrObjectClass.dproj"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectClass:Clean">
+        <MSBuild Projects="Reflections\Using ClrObject Class\ReflectionUsingClrObjectClass.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ReflectionUsingClrObjectClass:Make">
+        <MSBuild Projects="Reflections\Using ClrObject Class\ReflectionUsingClrObjectClass.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Collections">
+        <MSBuild Projects="Collections\Other Examples\Collections.dproj"/>
+    </Target>
+    <Target Name="Collections:Clean">
+        <MSBuild Projects="Collections\Other Examples\Collections.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Collections:Make">
+        <MSBuild Projects="Collections\Other Examples\Collections.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GenericDictionary">
+        <MSBuild Projects="Collections\Generic Dictionary\GenericDictionary.dproj"/>
+    </Target>
+    <Target Name="GenericDictionary:Clean">
+        <MSBuild Projects="Collections\Generic Dictionary\GenericDictionary.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GenericDictionary:Make">
+        <MSBuild Projects="Collections\Generic Dictionary\GenericDictionary.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GenericList">
+        <MSBuild Projects="Collections\Generic List\GenericList.dproj"/>
+    </Target>
+    <Target Name="GenericList:Clean">
+        <MSBuild Projects="Collections\Generic List\GenericList.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GenericList:Make">
+        <MSBuild Projects="Collections\Generic List\GenericList.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataTable">
+        <MSBuild Projects="Data\DataTable\DataTable.dproj"/>
+    </Target>
+    <Target Name="DataTable:Clean">
+        <MSBuild Projects="Data\DataTable\DataTable.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataTable:Make">
+        <MSBuild Projects="Data\DataTable\DataTable.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DirectoryServices">
+        <MSBuild Projects="Directory Services\DirectoryServices.dproj"/>
+    </Target>
+    <Target Name="DirectoryServices:Clean">
+        <MSBuild Projects="Directory Services\DirectoryServices.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DirectoryServices:Make">
+        <MSBuild Projects="Directory Services\DirectoryServices.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EventHandling">
+        <MSBuild Projects="Event Handler\Standard\EventHandling.dproj"/>
+    </Target>
+    <Target Name="EventHandling:Clean">
+        <MSBuild Projects="Event Handler\Standard\EventHandling.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EventHandling:Make">
+        <MSBuild Projects="Event Handler\Standard\EventHandling.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AdvancedEventHandler">
+        <MSBuild Projects="Event Handler\Advanced\AdvancedEventHandler.dproj"/>
+    </Target>
+    <Target Name="AdvancedEventHandler:Clean">
+        <MSBuild Projects="Event Handler\Advanced\AdvancedEventHandler.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AdvancedEventHandler:Make">
+        <MSBuild Projects="Event Handler\Advanced\AdvancedEventHandler.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ListFilesInDir">
+        <MSBuild Projects="IO\ListFilesInDirectory\ListFilesInDir.dproj"/>
+    </Target>
+    <Target Name="ListFilesInDir:Clean">
+        <MSBuild Projects="IO\ListFilesInDirectory\ListFilesInDir.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ListFilesInDir:Make">
+        <MSBuild Projects="IO\ListFilesInDirectory\ListFilesInDir.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StreamWriterReader">
+        <MSBuild Projects="IO\StreamWriterAndReader\StreamWriterReader.dproj"/>
+    </Target>
+    <Target Name="StreamWriterReader:Clean">
+        <MSBuild Projects="IO\StreamWriterAndReader\StreamWriterReader.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StreamWriterReader:Make">
+        <MSBuild Projects="IO\StreamWriterAndReader\StreamWriterReader.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EventWatcherPolling">
+        <MSBuild Projects="Management\EventWatcherPolling\EventWatcherPolling.dproj"/>
+    </Target>
+    <Target Name="EventWatcherPolling:Clean">
+        <MSBuild Projects="Management\EventWatcherPolling\EventWatcherPolling.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EventWatcherPolling:Make">
+        <MSBuild Projects="Management\EventWatcherPolling\EventWatcherPolling.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ManagementPath">
+        <MSBuild Projects="Management\Using ManagementPath\ManagementPath.dproj"/>
+    </Target>
+    <Target Name="ManagementPath:Clean">
+        <MSBuild Projects="Management\Using ManagementPath\ManagementPath.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ManagementPath:Make">
+        <MSBuild Projects="Management\Using ManagementPath\ManagementPath.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="XML">
+        <MSBuild Projects="XML\XML.dproj"/>
+    </Target>
+    <Target Name="XML:Clean">
+        <MSBuild Projects="XML\XML.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="XML:Make">
+        <MSBuild Projects="XML\XML.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CreateCSharpClassWithCodeDOM">
+        <MSBuild Projects="CodeDOM\CreateCSharpClassWithCodeDOM.dproj"/>
+    </Target>
+    <Target Name="CreateCSharpClassWithCodeDOM:Clean">
+        <MSBuild Projects="CodeDOM\CreateCSharpClassWithCodeDOM.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CreateCSharpClassWithCodeDOM:Make">
+        <MSBuild Projects="CodeDOM\CreateCSharpClassWithCodeDOM.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ByteConverter">
+        <MSBuild Projects="Converter\ByteConverter\ByteConverter.dproj"/>
+    </Target>
+    <Target Name="ByteConverter:Clean">
+        <MSBuild Projects="Converter\ByteConverter\ByteConverter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ByteConverter:Make">
+        <MSBuild Projects="Converter\ByteConverter\ByteConverter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CultureInfoConverter">
+        <MSBuild Projects="Converter\CultureInfoConverter\CultureInfoConverter.dproj"/>
+    </Target>
+    <Target Name="CultureInfoConverter:Clean">
+        <MSBuild Projects="Converter\CultureInfoConverter\CultureInfoConverter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CultureInfoConverter:Make">
+        <MSBuild Projects="Converter\CultureInfoConverter\CultureInfoConverter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Configuration">
+        <MSBuild Projects="Configuration\Configuration.dproj"/>
+    </Target>
+    <Target Name="Configuration:Clean">
+        <MSBuild Projects="Configuration\Configuration.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Configuration:Make">
+        <MSBuild Projects="Configuration\Configuration.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Diagnostics">
+        <MSBuild Projects="Diagnostics\Diagnostics.dproj"/>
+    </Target>
+    <Target Name="Diagnostics:Clean">
+        <MSBuild Projects="Diagnostics\Diagnostics.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Diagnostics:Make">
+        <MSBuild Projects="Diagnostics\Diagnostics.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DeviceLocation">
+        <MSBuild Projects="DeviceLocation\DeviceLocation\DeviceLocation.dproj"/>
+    </Target>
+    <Target Name="DeviceLocation:Clean">
+        <MSBuild Projects="DeviceLocation\DeviceLocation\DeviceLocation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DeviceLocation:Make">
+        <MSBuild Projects="DeviceLocation\DeviceLocation\DeviceLocation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ResolveAddressSync">
+        <MSBuild Projects="DeviceLocation\ResolveAddressSync\ResolveAddressSync.dproj"/>
+    </Target>
+    <Target Name="ResolveAddressSync:Clean">
+        <MSBuild Projects="DeviceLocation\ResolveAddressSync\ResolveAddressSync.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ResolveAddressSync:Make">
+        <MSBuild Projects="DeviceLocation\ResolveAddressSync\ResolveAddressSync.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataGridViewOnVCLForm">
+        <MSBuild Projects="DataGridView\DataGridViewOnVCLForm.dproj"/>
+    </Target>
+    <Target Name="DataGridViewOnVCLForm:Clean">
+        <MSBuild Projects="DataGridView\DataGridViewOnVCLForm.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataGridViewOnVCLForm:Make">
+        <MSBuild Projects="DataGridView\DataGridViewOnVCLForm.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RijndaelSecurity">
+        <MSBuild Projects="Security\RijndaelSecurity.dproj"/>
+    </Target>
+    <Target Name="RijndaelSecurity:Clean">
+        <MSBuild Projects="Security\RijndaelSecurity.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RijndaelSecurity:Make">
+        <MSBuild Projects="Security\RijndaelSecurity.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ConsoleApp;LoadAssemblyUsingAppDomain;LoadAssemblyUsingAssemblyHelper;LoadAssemblyUsingAssemblyClass;CreateInstanceUsingActivator;CreateInstanceUsingAppDomain;CreateInstanceUsingDispActivator;COMDispInterface;BasicExample;ArrayExample;ArrayList;DateTimeInfo;StringBuilder;UsingClrObject;Reflection;ReflectionUsingClrObjectInterface;ReflectionUsingClrObjectClass;Collections;GenericDictionary;GenericList;DataTable;DirectoryServices;EventHandling;AdvancedEventHandler;ListFilesInDir;StreamWriterReader;EventWatcherPolling;ManagementPath;XML;CreateCSharpClassWithCodeDOM;ByteConverter;CultureInfoConverter;Configuration;Diagnostics;DeviceLocation;ResolveAddressSync;DataGridViewOnVCLForm;RijndaelSecurity"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ConsoleApp:Clean;LoadAssemblyUsingAppDomain:Clean;LoadAssemblyUsingAssemblyHelper:Clean;LoadAssemblyUsingAssemblyClass:Clean;CreateInstanceUsingActivator:Clean;CreateInstanceUsingAppDomain:Clean;CreateInstanceUsingDispActivator:Clean;COMDispInterface:Clean;BasicExample:Clean;ArrayExample:Clean;ArrayList:Clean;DateTimeInfo:Clean;StringBuilder:Clean;UsingClrObject:Clean;Reflection:Clean;ReflectionUsingClrObjectInterface:Clean;ReflectionUsingClrObjectClass:Clean;Collections:Clean;GenericDictionary:Clean;GenericList:Clean;DataTable:Clean;DirectoryServices:Clean;EventHandling:Clean;AdvancedEventHandler:Clean;ListFilesInDir:Clean;StreamWriterReader:Clean;EventWatcherPolling:Clean;ManagementPath:Clean;XML:Clean;CreateCSharpClassWithCodeDOM:Clean;ByteConverter:Clean;CultureInfoConverter:Clean;Configuration:Clean;Diagnostics:Clean;DeviceLocation:Clean;ResolveAddressSync:Clean;DataGridViewOnVCLForm:Clean;RijndaelSecurity:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ConsoleApp:Make;LoadAssemblyUsingAppDomain:Make;LoadAssemblyUsingAssemblyHelper:Make;LoadAssemblyUsingAssemblyClass:Make;CreateInstanceUsingActivator:Make;CreateInstanceUsingAppDomain:Make;CreateInstanceUsingDispActivator:Make;COMDispInterface:Make;BasicExample:Make;ArrayExample:Make;ArrayList:Make;DateTimeInfo:Make;StringBuilder:Make;UsingClrObject:Make;Reflection:Make;ReflectionUsingClrObjectInterface:Make;ReflectionUsingClrObjectClass:Make;Collections:Make;GenericDictionary:Make;GenericList:Make;DataTable:Make;DirectoryServices:Make;EventHandling:Make;AdvancedEventHandler:Make;ListFilesInDir:Make;StreamWriterReader:Make;EventWatcherPolling:Make;ManagementPath:Make;XML:Make;CreateCSharpClassWithCodeDOM:Make;ByteConverter:Make;CultureInfoConverter:Make;Configuration:Make;Diagnostics:Make;DeviceLocation:Make;ResolveAddressSync:Make;DataGridViewOnVCLForm:Make;RijndaelSecurity:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
